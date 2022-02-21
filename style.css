@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 23px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+}
+
+.colorful {
+    color: rgb(255, 136, 0);
+}
+
+.portofolio {
+    padding: 11px 50px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 30px;
+    transition: .5s;
+    font-weight: bold;
+}
+
+.portofolio:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.vision {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10vh;
+}
+
+.first-img {
+    width: 40vh;
+    height: 11vh;
+    object-fit: cover;
+    padding: 0 50vh;
+}
+
+.home {
+    margin-top: 7vh;
+    font-size: 60px;
+    font-family: 'Days One', sans-serif;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
+
+.col1 {
+    margin: 10px;
+    width: 90vh;
+}
+
+.col2 {
+    margin: 10px;
+}
+
+.susta {
+    width: 110px;
+    height: 80px;
+    object-fit: cover;
+    margin-top: 120px;
+}
+
+.tell-me {
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: 'Days One', sans-serif;
+}
+
+.artist {
+    border-radius: 100vh;
+    object-fit: cover;
+    width: 20rem;
+    height: 30rem;
+    margin-bottom: 50px;
+}
+
+.dif {
+    padding: 10vh 0;
+}
+
+.title {
+    text-align: center;
+    margin-top: 7vh;
+    font-size: 40px;
+    font-family: 'Days One', sans-serif;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.together {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    margin-top: 2rem;
+}
+
+.art {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.art1 {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-bottom-left-radius: 10vh;
+    border-top-right-radius: 10vh;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+.text {
+    width: 60vh;
+    padding: 20px;
+}
+
+.smth {
+    font-size: 15px;
+    width: 30vh;
+    font-family: 'Days One', sans-serif;
+}
+
+.empty {
+    width: 40vh;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.box3 {
+    display: flex;
+    align-items: center;
+    margin-top: 12vh;
+    margin-left: 50vh;
+}
+
+.cold {
+    padding: 10vh 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+.bob1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.bob2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.text1 {
+    width: 40vh;
+    padding: 20px;
+}
+
+.smth1 {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Days One', sans-serif;
+}
+
+.empty1 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.title1 {
+    text-align: left;
+    margin-top: 7vh;
+    margin-left: 3rem;
+    padding: 20px 6rem;
+    font-size: 30px;
+    font-family: 'Days One', sans-serif;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: end;
+}
+
+.colo {
+    margin: 2rem 0;
+}
+
+.girl {
+    width: 70vh;
+    height: 70vh;
+    object-fit: cover;
+    border-top-right-radius: 15vh;
+    border-bottom-right-radius: 10vh;
+}
+
+.coli {
+    padding: 2rem 5rem;
+}
+
+.cont {
+    padding: 1rem 0;
+}
+
+.name {
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    font-style: italic;
+    padding: 2vh;
+}
+
+.cont-link {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+    transition: .5s;
+}
+
+.cont-link:hover {
+    text-decoration: underline;
+    color: rgb(17, 0, 255);
+}
+
+.copyright {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.copyright .jes {
+    color: #000;
+    text-decoration: none;
+}
+
+.copyright .jes:hover {
+    color: #008cff;
+    text-decoration: underline;
+}
+
+.copyright .heart {
+    color: #000;
+}
+
+.copyright .heart:hover {
+    color: rgb(255, 0, 0);
+}
+
+@media (max-width:700px) {
+    .logo {
+        font-size: 17px;
+    }
+    .portofolio {
+        padding: 7px 30px;
+    }
+    .first-img {
+        display: none;
+    }
+    .home {
+        font-size: 40px;
+        margin: 15vh 0;
+    }
+    .about {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .artist {
+        width: 15rem;
+        height: 25rem;
+    }
+    .susta {
+        width: 50px;
+        height: 50px;
+    }
+    .col1 {
+        width: 50vh;
+    }
+    .tell-me {
+        font-size: 25px;
+        font-family: 'Days One', sans-serif;
+        text-align: center;
+        align-items: center;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .together {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        margin-top: 3rem;
+    }
+    .box2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        margin-top: 3rem;
+    }
+    .box3 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        margin-top: 3rem;
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .smth {
+        margin-left: 30px;
+    }
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .bob1 {
+        margin-top: 5rem;
+    }
+    .bob2 {
+        margin-top: 5rem;
+    }
+    .title1 {
+        text-align: center;
+        margin-top: 7vh;
+        font-size: 20px;
+        font-family: 'Days One', sans-serif;
+        letter-spacing: 2px;
+        font-style: italic;
+    }
+    .sec {
+        flex-direction: column;
+    }
+    .girl {
+        width: 40vh;
+        height: 40vh;
+        object-fit: cover;
+        margin: 0;
+        border-radius: 15vh;
+    }
+    .coli {
+        margin: 0;
+    }
+}

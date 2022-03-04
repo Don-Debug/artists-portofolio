@@ -116,6 +116,11 @@ html {
     width: 20rem;
     height: 30rem;
     margin-bottom: 50px;
+    transition: .7s ease-in-out;
+}
+
+.artist:hover {
+    border-radius: 7vh;
 }
 
 .dif {
@@ -314,4 +319,148 @@ html {
 
 .copyright .heart:hover {
     color: rgb(255, 0, 0);
+}
+
+@media screen and (max-width: 800px) {
+    .menu {
+        padding: 30px 40px;
+    }
+    .logo {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .portofolio {
+        padding: 6px 20px;
+    }
+    .first-img {
+        margin-top: 10vh;
+        width: 30vh;
+        height: 7vh;
+    }
+    .home {
+        margin-top: 10vh;
+        font-size: 30px;
+        line-height: 30px;
+        width: max-content;
+    }
+    .about {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .col1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: max-content;
+    }
+    .susta {
+        width: 80px;
+        height: 50px;
+        margin-top: 0;
+    }
+    .tell-me {
+        margin-top: 30px;
+        font-size: 15px;
+        width: 45vh;
+    }
+    .artist {
+        border-radius: 7vh;
+        width: 10rem;
+        height: 15rem;
+        margin-bottom: 10px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .together {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box1 {
+        margin-top: 15vh;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: max-content;
+    }
+    .box2 {
+        margin-top: 15vh;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: max-content;
+    }
+    .art {
+        width: 100px;
+        height: 100px;
+    }
+    .text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: max-content;
+    }
+    .smth {
+        font-size: 13px;
+    }
+    .empty {
+        font-size: 13px;
+    }
+    .box3 {
+        margin-top: 15vh;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        width: max-content;
+    }
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+    .bob1 {
+        margin-top: 6rem;
+        width: max-content;
+    }
+    .bob2 {
+        margin-top: 6rem;
+        width: max-content;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .title1 {
+        font-size: 15px;
+        padding: 0 0;
+        width: max-content;
+    }
+    .sec {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .girl {
+        width: 15rem;
+        height: 15rem;
+        border-radius: 3rem;
+    }
+    .name {
+        font-size: 14px;
+        width: max-content;
+    }
+    .cont-link {
+        font-size: 14px;
+        width: max-content;
+    }
+    .copyright {
+        font-size: 13px;
+        width: max-content;
+    }
 }

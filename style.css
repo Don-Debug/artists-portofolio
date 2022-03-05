@@ -263,7 +263,7 @@ html {
     height: 70vh;
     object-fit: cover;
     border-top-right-radius: 15vh;
-    border-bottom-right-radius: 10vh;
+    border-bottom-right-radius: 15vh;
 }
 
 .coli {
@@ -321,7 +321,59 @@ html {
     color: rgb(255, 0, 0);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1050px) {
+    .logo {
+        font-size: 25px;
+        line-height: 24px;
+    }
+    .portofolio {
+        padding: 9px 25px;
+    }
+    .about {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .per {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .col1 {
+        width: 50vh;
+    }
+    .together {
+        flex-direction: column;
+    }
+    .box1 {
+        margin-top: 125px;
+    }
+    .box3 {
+        margin-left: 0;
+        margin-top: 125px;
+    }
+    .flex {
+        flex-direction: column;
+    }
+    .bob1 {
+        margin-top: 8rem;
+    }
+    .bob2 {
+        margin-top: 8rem;
+    }
+    .sec {
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    .coli {
+        padding-left: 400px;
+    }
+}
+
+@media screen and (max-width: 700px) {
     .menu {
         padding: 30px 40px;
     }
@@ -451,6 +503,9 @@ html {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .coli {
+        padding-left: 0;
     }
     .girl {
         width: 15rem;

@@ -31,6 +31,16 @@ html {
     justify-content: space-between;
     padding: 30px 60px;
     align-items: center;
+    opacity: 0;
+    transform: translateY(-50%);
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.menu-transform {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
 }
 
 .logo {
@@ -71,6 +81,16 @@ html {
     width: 40vh;
     height: 11vh;
     object-fit: cover;
+    opacity: 0;
+    transform: translateY(30px);
+    visibility: hidden;
+    transition: all .7s ease-in-out;
+}
+
+.first-img-move {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
 }
 
 .home {
@@ -80,6 +100,16 @@ html {
     letter-spacing: 2px;
     font-style: italic;
     line-height: 60px;
+    opacity: 0;
+    transform: translateY(30px);
+    visibility: hidden;
+    transition: all 1.5s ease-in-out;
+}
+
+.home-move {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
 }
 
 .about {
@@ -91,10 +121,30 @@ html {
 .col1 {
     margin: 10px;
     width: 90vh;
+    opacity: 0;
+    transform: translateX(-30px);
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.col1-move {
+    opacity: 1;
+    transform: translateX(0);
+    visibility: visible;
 }
 
 .col2 {
     margin: 10px;
+    opacity: 0;
+    transform: translateX(-30px);
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.col2-move {
+    opacity: 1;
+    transform: translateX(0);
+    visibility: visible;
 }
 
 .susta {
@@ -134,6 +184,31 @@ html {
     font-family: 'Days One', sans-serif;
     letter-spacing: 2px;
     font-style: italic;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.title-move {
+    opacity: 1;
+    visibility: visible;
+}
+
+.title31 {
+    text-align: center;
+    margin-top: 7vh;
+    font-size: 40px;
+    font-family: 'Days One', sans-serif;
+    letter-spacing: 2px;
+    font-style: italic;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.title31-move {
+    opacity: 1;
+    visibility: visible;
 }
 
 .together {
@@ -162,6 +237,16 @@ html {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    opacity: 0;
+    transform: translateX(-30px);
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.box1-move {
+    opacity: 1;
+    transform: translateX(0);
+    visibility: visible;
 }
 
 .box2 {
@@ -169,6 +254,16 @@ html {
     justify-content: space-evenly;
     align-items: center;
     margin-top: 20vh;
+    opacity: 0;
+    transform: translateX(-30px);
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.box2-move {
+    opacity: 1;
+    transform: translateX(0);
+    visibility: visible;
 }
 
 .text {
@@ -193,6 +288,16 @@ html {
     align-items: center;
     margin-top: 12vh;
     margin-left: 50vh;
+    opacity: 0;
+    transform: translateX(-30px);
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.box3-move {
+    opacity: 1;
+    transform: translateX(0);
+    visibility: visible;
 }
 
 .cold {
@@ -211,6 +316,34 @@ html {
     text-align: center;
     align-items: center;
     margin-top: 8rem;
+    opacity: 0;
+    transform: translateY(50px);
+    visibility: hidden;
+    transition: all 1.5s ease-in-out;
+}
+
+.bob1-move {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+
+.bob11 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 8rem;
+    opacity: 0;
+    transform: translateY(50px);
+    visibility: hidden;
+    transition: all 1.5s ease-in-out;
+}
+
+.bob11-move {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
 }
 
 .bob2 {
@@ -218,6 +351,16 @@ html {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    opacity: 0;
+    transform: translateY(50px);
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.bob2-move {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
 }
 
 .text1 {
@@ -245,6 +388,14 @@ html {
     font-family: 'Days One', sans-serif;
     letter-spacing: 2px;
     font-style: italic;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1.5s ease-in-out;
+}
+
+.title1-move {
+    opacity: 1;
+    visibility: visible;
 }
 
 .sec {
@@ -264,10 +415,30 @@ html {
     object-fit: cover;
     border-top-right-radius: 15vh;
     border-bottom-right-radius: 15vh;
+    opacity: 0;
+    transform: translateX(-50px);
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.girl-move {
+    opacity: 1;
+    transform: translateX(0);
+    visibility: visible;
 }
 
 .coli {
     padding: 2rem 5rem;
+    opacity: 0;
+    transform: translateX(-50px);
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.coli-move {
+    opacity: 1;
+    transform: translateX(0);
+    visibility: visible;
 }
 
 .cont {
@@ -319,6 +490,22 @@ html {
 
 .copyright .heart:hover {
     color: rgb(255, 0, 0);
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 6%;
+    right: 4%;
+    color: #ff8800;
+    font-size: 25px;
+    background-color: #000000;
+    border-radius: 30%;
+    display: none;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    z-index: 11999;
 }
 
 @media screen and (max-width: 1050px) {
@@ -423,6 +610,9 @@ html {
         height: 15rem;
         margin-bottom: 10px;
     }
+    .title31 {
+        font-size: 20px;
+    }
     .title {
         font-size: 20px;
     }
@@ -522,5 +712,11 @@ html {
     .copyright {
         font-size: 13px;
         width: max-content;
+        margin-bottom: 15vh;
+    }
+    #back-to-top {
+        width: 40px;
+        height: 40px;
+        bottom: 5%;
     }
 }

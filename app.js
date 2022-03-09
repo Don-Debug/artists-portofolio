@@ -16,8 +16,19 @@ backTop.addEventListener("click", backToTop);
 function backToTop() {
     window.scrollTo(0, 0);
 }
+// Dark and Light mode
 
-// Aniamtion
+const icon = document.getElementById("moon");
+
+icon.onclick = function() {
+        document.body.classList.toggle("dark-theme");
+        if (document.body.classList.contains("dark-theme")) {
+            icon.src = "./images/sun.png";
+        } else {
+            icon.src = "./images/moon.png";
+        }
+    }
+    // Aniamtion
 
 window.addEventListener("load", () => {
     let content = document.querySelector(".menu");
@@ -187,5 +198,14 @@ window.addEventListener("scroll", () => {
         content.classList.add("coli-move");
     } else {
         content.classList.remove("coli-move");
+    }
+});
+window.addEventListener("scroll", () => {
+    let content = document.querySelector(".darkmode");
+    let contentPosition = content.getBoundingClientRect().top;
+    let screenPosition = window.innerHeight;
+
+    if (contentPosition < screenPosition) {
+        content.classList.add("darkmode-uno");
     }
 });

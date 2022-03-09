@@ -21,14 +21,16 @@ function backToTop() {
 const icon = document.getElementById("moon");
 
 icon.onclick = function() {
-        document.body.classList.toggle("dark-theme");
-        if (document.body.classList.contains("dark-theme")) {
-            icon.src = "./images/sun.png";
-        } else {
-            icon.src = "./images/moon.png";
-        }
+    document.body.classList.toggle("dark-theme");
+    if (document.body.classList.contains("dark-theme")) {
+        icon.src = "./images/sun.png";
+    } else {
+        icon.src = "./images/moon.png";
     }
-    // Aniamtion
+}
+
+
+// Aniamtion
 
 window.addEventListener("load", () => {
     let content = document.querySelector(".menu");

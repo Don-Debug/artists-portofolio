@@ -787,6 +787,8 @@ body {
     .title1 {
         font-size: 15px;
         padding: 0 0;
+        margin: 0;
+        margin-top: 2rem;
         width: max-content;
     }
     .sec {
@@ -795,12 +797,14 @@ body {
         align-items: center;
     }
     .coli {
-        padding-left: 0;
+        padding: 2rem 0;
+        text-align: center;
     }
     .girl {
         width: 15rem;
         height: 15rem;
         border-radius: 3rem;
+        margin-top: 2rem;
     }
     .name {
         font-size: 14px;

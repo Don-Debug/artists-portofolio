@@ -126,6 +126,7 @@ body {
     opacity: 0;
     transform: translateX(-50px);
     transition: all .7s ease-in;
+    user-select: none;
 }
 
 .darkmode-uno {
@@ -138,6 +139,7 @@ body {
     height: 50px;
     cursor: pointer;
     object-fit: cover;
+    user-select: none;
 }
 
 .home {

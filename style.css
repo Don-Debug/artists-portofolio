@@ -622,14 +622,26 @@ body {
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin-top: 10vh;
     }
     .col1 {
-        width: 50vh;
+        width: 55vh;
     }
     .together {
         flex-direction: column;
     }
-    .box1 {
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 40vh;
+    }
+    .empty {
+        width: 30vh;
+    }
+    .box2 {
         margin-top: 125px;
     }
     .box3 {
@@ -652,6 +664,20 @@ body {
     }
     .coli {
         padding-left: 400px;
+        padding-right: 0;
+    }
+    .art1 {
+        width: 150px;
+        height: 150px;
+        border-bottom-left-radius: 5vh;
+        border-top-right-radius: 5vh;
+    }
+    .girl {
+        width: 50vh;
+        height: 50vh;
+    }
+    .copyright {
+        font-size: 20px;
     }
 }
 

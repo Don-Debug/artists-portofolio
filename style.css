@@ -23,12 +23,8 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(var(--second-color), var(--primary-color));
-    border-radius: 6vh;
-}
-
-::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(var(--primary-color), var(--second-color));
+    border-radius: 6vh;
 }
 
 :root {

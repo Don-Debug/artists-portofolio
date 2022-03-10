@@ -62,7 +62,7 @@ window.addEventListener("load", () => {
 window.addEventListener("scroll", () => {
     let content = document.querySelector(".col2");
     let contentPosition = content.getBoundingClientRect().top;
-    let screenPosition = window.innerHeight / 3;
+    let screenPosition = window.innerHeight / 1.4;
 
     if (contentPosition < screenPosition) {
         content.classList.add("col2-move");
@@ -73,7 +73,7 @@ window.addEventListener("scroll", () => {
 window.addEventListener("scroll", () => {
     let content = document.querySelector(".col1");
     let contentPosition = content.getBoundingClientRect().top;
-    let screenPosition = window.innerHeight / 2;
+    let screenPosition = window.innerHeight / 1.5;
 
     if (contentPosition < screenPosition) {
         content.classList.add("col1-move");

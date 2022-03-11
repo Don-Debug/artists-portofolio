@@ -113,7 +113,17 @@ body {
 .colorful {
     color: rgb(255, 136, 0);
 }
-
+.group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brush {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 20px;
+}
 .portofolio {
     padding: 11px 50px;
     text-decoration: none;
@@ -608,6 +618,11 @@ body {
         font-size: 25px;
         line-height: 24px;
     }
+    .brush {
+        width: 70px;
+        height: 70px;
+      
+    }
     .portofolio {
         padding: 9px 25px;
     }
@@ -693,6 +708,11 @@ body {
     .logo {
         font-size: 15px;
         line-height: 15px;
+    }
+    .brush {
+        width: 50px;
+        height: 50px;
+       
     }
     .portofolio {
         padding: 6px 20px;

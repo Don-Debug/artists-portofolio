@@ -6,16 +6,12 @@
 
 html {
     scroll-behavior: smooth;
+    user-select: none;
 }
 
 body {
     background-color: var(--primary-color);
     color: var(--second-color);
-}
-
-::selection {
-    background-color: #fffb00d7;
-    color: rgb(0, 0, 0);
 }
 
 ::-webkit-scrollbar {
@@ -193,7 +189,7 @@ body {
     height: 50px;
     cursor: pointer;
     object-fit: cover;
-    user-select: none;
+    z-index: -5;
 }
 
 .home {

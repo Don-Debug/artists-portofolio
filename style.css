@@ -6,12 +6,16 @@
 
 html {
     scroll-behavior: smooth;
-    user-select: none;
 }
 
 body {
     background-color: var(--primary-color);
     color: var(--second-color);
+}
+
+::selection {
+    background-color: #ff2c;
+    color: #000;
 }
 
 ::-webkit-scrollbar {
@@ -116,11 +120,17 @@ body {
     align-items: center;
 }
 
+.let {
+    user-select: none;
+}
+
 .brush {
     width: 80px;
     height: 80px;
     object-fit: cover;
     margin-right: 20px;
+    position: relative;
+    z-index: -1;
 }
 
 .portofolio {
@@ -131,6 +141,7 @@ body {
     border-radius: 30px;
     transition: .5s;
     font-weight: bold;
+    user-select: none;
 }
 
 .portofolio:hover {
@@ -146,6 +157,10 @@ body {
     margin: 10vh;
 }
 
+.hidden {
+    user-select: none;
+}
+
 .first-img {
     width: 40vh;
     height: 11vh;
@@ -154,6 +169,8 @@ body {
     transform: translateY(30px);
     visibility: hidden;
     transition: all .7s ease-in-out;
+    position: relative;
+    z-index: -1;
 }
 
 .first-img-move {
@@ -184,12 +201,17 @@ body {
     transform: translateX(0);
 }
 
-.moon {
+.mondi {
     width: 50px;
     height: 50px;
-    cursor: pointer;
     object-fit: cover;
+    position: relative;
     z-index: -5;
+}
+
+.moon {
+    cursor: pointer;
+    user-select: none;
 }
 
 .home {
@@ -238,6 +260,7 @@ body {
     transform: translateX(-30px);
     visibility: hidden;
     transition: all 1s ease-in-out;
+    user-select: none;
 }
 
 .col2-move {
@@ -246,11 +269,17 @@ body {
     visibility: visible;
 }
 
+.move {
+    margin-top: 120px;
+    user-select: none;
+}
+
 .susta {
     width: 110px;
     height: 80px;
     object-fit: cover;
-    margin-top: 120px;
+    position: relative;
+    z-index: -1;
 }
 
 .tell-me {
@@ -266,9 +295,11 @@ body {
     height: 30rem;
     margin-bottom: 50px;
     transition: .7s ease-in-out;
+    position: relative;
+    z-index: -1;
 }
 
-.artist:hover {
+.col2:hover .artist {
     border-radius: 7vh;
 }
 
@@ -317,11 +348,17 @@ body {
     margin-top: 2rem;
 }
 
+.boxet {
+    user-select: none;
+}
+
 .art {
     width: 140px;
     height: 140px;
     object-fit: cover;
     border-radius: 20px;
+    position: relative;
+    z-index: -1;
 }
 
 .art1 {
@@ -330,6 +367,8 @@ body {
     object-fit: cover;
     border-bottom-left-radius: 10vh;
     border-top-right-radius: 10vh;
+    position: relative;
+    z-index: -1;
 }
 
 .box1 {
@@ -506,6 +545,7 @@ body {
 
 .colo {
     margin: 2rem 0;
+    user-select: none;
 }
 
 .girl {
@@ -518,6 +558,8 @@ body {
     transform: translateX(-50px);
     visibility: hidden;
     transition: all 1s ease-in-out;
+    position: relative;
+    z-index: -1;
 }
 
 .girl-move {
@@ -605,6 +647,7 @@ body {
     border: none;
     cursor: pointer;
     z-index: 11999;
+    user-select: none;
 }
 
 @media screen and (max-width: 1050px) {

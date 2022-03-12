@@ -19,13 +19,14 @@ function backToTop() {
 // Dark and Light mode
 
 const icon = document.getElementById("moon");
+const letme = document.getElementById("mondi");
 
 icon.onclick = function() {
     document.body.classList.toggle("dark-theme");
     if (document.body.classList.contains("dark-theme")) {
-        icon.src = "./images/moon.png";
+        mondi.src = "./images/moon.png";
     } else {
-        icon.src = "./images/ass.png";
+        mondi.src = "./images/ass.png";
     }
 }
 

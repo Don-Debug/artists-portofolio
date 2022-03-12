@@ -131,6 +131,7 @@ body {
     margin-right: 20px;
     position: relative;
     z-index: -1;
+    pointer-events: none;
 }
 
 .portofolio {
@@ -171,6 +172,7 @@ body {
     transition: all .7s ease-in-out;
     position: relative;
     z-index: -1;
+    pointer-events: none;
 }
 
 .first-img-move {
@@ -207,11 +209,13 @@ body {
     object-fit: cover;
     position: relative;
     z-index: -5;
+    pointer-events: none;
 }
 
 .moon {
     cursor: pointer;
     user-select: none;
+    overflow: hidden;
 }
 
 .home {
@@ -280,6 +284,7 @@ body {
     object-fit: cover;
     position: relative;
     z-index: -1;
+    pointer-events: none;
 }
 
 .tell-me {
@@ -297,6 +302,7 @@ body {
     transition: .7s ease-in-out;
     position: relative;
     z-index: -1;
+    pointer-events: none;
 }
 
 .col2:hover .artist {
@@ -359,6 +365,7 @@ body {
     border-radius: 20px;
     position: relative;
     z-index: -1;
+    pointer-events: none;
 }
 
 .art1 {
@@ -369,6 +376,7 @@ body {
     border-top-right-radius: 10vh;
     position: relative;
     z-index: -1;
+    pointer-events: none;
 }
 
 .box1 {
@@ -560,6 +568,7 @@ body {
     transition: all 1s ease-in-out;
     position: relative;
     z-index: -1;
+    pointer-events: none;
 }
 
 .girl-move {
@@ -648,6 +657,7 @@ body {
     cursor: pointer;
     z-index: 11999;
     user-select: none;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 1050px) {
@@ -919,7 +929,7 @@ body {
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
     }
-    .moon {
+    .mondi {
         width: 40px;
         height: 40px;
     }

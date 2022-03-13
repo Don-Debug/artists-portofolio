@@ -36,6 +36,9 @@ const preload = document.querySelector(".ground")
 window.addEventListener("load", smash);
 
 function smash() {
+    setTimeout(function() {
+        window.location.reload(1);
+    }, 200000);
     preload.classList.add("hide");
 }
 

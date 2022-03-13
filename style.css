@@ -60,11 +60,13 @@ body {
     border: 15px solid #fff;
     background: transparent;
     animation: preload 1.2s linear infinite;
+    user-select: none;
 }
 
 .msg {
     color: #fff;
     font-size: 30px;
+    user-select: none;
 }
 
 @keyframes preload {

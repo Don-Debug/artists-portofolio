@@ -38,6 +38,7 @@ window.addEventListener("load", smash);
 function smash() {
     preload.classList.add("hide");
 }
+
 // Aniamtion
 
 window.addEventListener("load", () => {

@@ -108,8 +108,8 @@ body {
     border-bottom-right-radius: 20px;
     user-select: none;
     opacity: 0;
-    transform: translateX(-50px);
-    transition: all .7s ease-in;
+    transform: translateX(-100px);
+    transition: all 1s ease;
 }
 
 .darkmode-uno {

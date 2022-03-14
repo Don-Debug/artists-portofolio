@@ -37,3 +37,12 @@ window.addEventListener("load", () => {
         content.classList.add("menu-transform");
     }
 });
+window.addEventListener("load", () => {
+    let content = document.querySelector(".darkmode");
+    let contentPosition = content.getBoundingClientRect().top;
+    let screenPosition = window.innerHeight;
+
+    if (contentPosition < screenPosition) {
+        content.classList.add("darkmode-uno");
+    }
+});

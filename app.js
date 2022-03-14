@@ -1,4 +1,4 @@
-//back to top button
+//================== Back to top button ======================
 const backTop = document.querySelector("#back-to-top");
 
 window.addEventListener("scroll", scrollfunction);
@@ -16,7 +16,7 @@ backTop.addEventListener("click", backToTop);
 function backToTop() {
     window.scrollTo(0, 0);
 }
-// Dark and Light mode
+// ========================== Dark and Light mode ==========================
 
 const icon = document.getElementById("moon");
 const letme = document.getElementById("mondi");
@@ -30,19 +30,16 @@ icon.onclick = function() {
     }
 }
 
-//preload
+// =================================== Preload ================================
 const preload = document.querySelector(".ground")
 
 window.addEventListener("load", smash);
 
 function smash() {
-    setTimeout(function() {
-        window.location.reload(1);
-    }, 200000);
     preload.classList.add("hide");
 }
 
-// Aniamtion
+//=========================== Aniamtion ==================================
 
 window.addEventListener("load", () => {
     let content = document.querySelector(".menu");

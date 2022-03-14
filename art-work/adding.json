@@ -1,0 +1,30 @@
+{
+    "addingimages": [
+
+        {
+            "emri": "Loni",
+            "cmimi": "$50",
+            "image": "./images/paint.png"
+        },
+
+        {
+            "emri": "Loni",
+            "cmimi": "$50",
+            "image": "./images/paint.png"
+        },
+
+        {
+            "emri": "Bpni",
+            "cmimi": "$50",
+            "image": "./images/paint.png"
+        },
+
+        {
+            "emri": "Loni",
+            "cmimi": "$50",
+            "image": "./images/paint.png"
+        }
+
+
+    ]
+}

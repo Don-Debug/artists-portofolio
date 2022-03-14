@@ -17,30 +17,24 @@ body {
     color: #000;
 }
 
- ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 10px;
 }
 
- ::-webkit-scrollbar-thumb {
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(95, 95, 95, 0.521));
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(var(--primary-color), var(--second-color));
     border-radius: 6vh;
-}
-
- ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0));
 }
 
  :root {
     --primary-color: #000;
     --second-color: #fff;
-    --third-color: #000;
     --let-color: #9e9e9e;
 }
 
 .dark-theme {
     --primary-color: #ffffff;
     --second-color: #000000;
-    --third-color: #ff8800;
     --let-color: #3d3d3d;
 }
 
@@ -160,6 +154,7 @@ body {
     font-family: 'Anton', sans-serif;
     letter-spacing: 2px;
     line-height: 25px;
+    margin-left: 20px;
     color: var(--second-color);
 }
 
@@ -177,7 +172,6 @@ body {
     width: 80px;
     height: 80px;
     object-fit: cover;
-    margin-right: 20px;
     position: relative;
     z-index: -1;
     pointer-events: none;
@@ -250,4 +244,77 @@ body {
     .portofolio {
         padding: 6px 20px;
     }
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 6%;
+    right: 3%;
+    color: #e47900;
+    font-size: 25px;
+    background-color: #000;
+    border-radius: 30%;
+    display: none;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #e47900;
+    cursor: pointer;
+    z-index: 11999;
+    user-select: none;
+    overflow: hidden;
+}
+
+#adding {
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.colum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    background-color: var(--second-color);
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 60px;
+}
+
+.boxet {
+    user-select: none;
+}
+
+.pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    pointer-events: none;
+}
+
+.pic-name {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    max-width: fit-content;
+}
+
+.vize {
+    background-color: var(--primary-color);
+    width: 85%;
+    height: 2px;
+    border: none;
+}
+
+.ammount {
+    font-size: 20px;
+    padding: 7px;
+    padding-left: 130px;
+}
+
+.end {
+    margin-bottom: 20vh;
 }

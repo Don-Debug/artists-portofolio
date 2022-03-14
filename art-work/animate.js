@@ -25,6 +25,23 @@ icon.onclick = function() {
 
 //====================== Back to top ====================
 
+const backTop = document.querySelector("#back-to-top");
+
+window.addEventListener("scroll", scrollfunction);
+
+function scrollfunction() {
+    if (window.pageYOffset > 60) {
+        backTop.style.display = "block";
+    } else {
+        backTop.style.display = "none";
+    }
+}
+
+backTop.addEventListener("click", backToTop);
+
+function backToTop() {
+    window.scrollTo(0, 0);
+}
 
 //==================== Animation ===============================
 
@@ -37,7 +54,8 @@ window.addEventListener("load", () => {
         content.classList.add("menu-transform");
     }
 });
-window.addEventListener("load", () => {
+
+window.addEventListener("scroll", () => {
     let content = document.querySelector(".darkmode");
     let contentPosition = content.getBoundingClientRect().top;
     let screenPosition = window.innerHeight;

@@ -271,6 +271,17 @@ body {
     grid-template-columns: repeat(4, 1fr);
 }
 
+.simple {
+    opacity: 0;
+    transition: all 2s ease;
+    transform: translateY(30vh);
+}
+
+.simple-move {
+    opacity: 1;
+    transform: translate(0);
+}
+
 .colum {
     display: flex;
     flex-direction: column;
@@ -278,9 +289,9 @@ body {
     align-items: center;
     color: var(--primary-color);
     background-color: var(--second-color);
-    padding: 15px;
-    border-radius: 15px;
     margin-top: 60px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .boxet {
@@ -291,7 +302,6 @@ body {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border-radius: 20px;
     pointer-events: none;
 }
 

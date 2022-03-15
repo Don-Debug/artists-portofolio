@@ -55,6 +55,16 @@ window.addEventListener("load", () => {
     }
 });
 
+window.addEventListener("load", () => {
+    let content = document.querySelector(".simple");
+    let contentPosition = content.getBoundingClientRect().top;
+    let screenPosition = window.innerHeight;
+
+    if (contentPosition < screenPosition) {
+        content.classList.add("simple-move");
+    }
+});
+
 window.addEventListener("scroll", () => {
     let content = document.querySelector(".darkmode");
     let contentPosition = content.getBoundingClientRect().top;

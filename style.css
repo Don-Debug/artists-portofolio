@@ -37,15 +37,18 @@ body {
 }
 
 .ground {
-    height: 40vh;
+    height: 100vh;
     width: 100%;
     background: #000;
-    display: grid;
-    place-items: center;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: fixed;
-    top: 30vh;
+    top: 0;
     left: 0;
-    z-index: 100000000000000;
+    z-index: 1000000;
 }
 
 .preloader {
@@ -73,17 +76,12 @@ body {
     }
 }
 
-.hide {
-    animation: smash .5s forwards;
+.hidden {
+    animation: smash .2s forwards;
 }
 
 @keyframes smash {
-    from {
-        opacity: 1;
-        visibility: visible;
-        display: block;
-    }
-    to {
+    100% {
         opacity: 0;
         visibility: hidden;
         display: none;
@@ -135,7 +133,7 @@ body {
     opacity: 0;
     transform: translateY(-50%);
     visibility: hidden;
-    transition: all 1.5s ease-in-out;
+    transition: all 3.5s ease-in-out;
 }
 
 .menu-transform {
@@ -320,7 +318,7 @@ body {
     opacity: 0;
     transform: translateY(30px);
     visibility: hidden;
-    transition: all 1.2s ease-in-out;
+    transition: all 3.5s ease-in-out;
     position: relative;
     z-index: -1;
     pointer-events: none;
@@ -342,7 +340,7 @@ body {
     opacity: 0;
     transform: translateY(30px);
     visibility: hidden;
-    transition: all 1.7s ease-in-out;
+    transition: all 3.5s ease-in-out;
 }
 
 .home-move {

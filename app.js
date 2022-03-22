@@ -31,12 +31,14 @@ icon.onclick = function() {
 }
 
 // =================================== Preload ================================
-const preload = document.querySelector(".ground")
+const preload = document.getElementById("pageloading");
 
-window.addEventListener("load", smash);
+window.addEventListener("load", loading);
 
-function smash() {
-    preload.classList.add("hide");
+function loading() {
+    setTimeout(() => {
+        preload.classList.add("hidden");
+    }, 2000);
 }
 
 //=========================== Aniamtion ==================================

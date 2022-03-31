@@ -264,6 +264,12 @@ body {
     height: 5vh;
 }
 
+@media screen and (max-width: 1000px) {
+    .animate img:nth-child(8) {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .animate img:nth-child(1) {
         animation-delay: 6s;
